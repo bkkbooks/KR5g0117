@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0117/v1
+canonical_location: https://kanripo.org/bkk/KR5g0117/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 海瓊問道集
+  identifiers:
+    alt_id:
+    - DZ1308
+  date: '2015-08-29 02:56:05.080753'
+  source:
+    repository: kanripo
+    path: KR5g0117
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0117_000.yaml, hash: 'sha256:46b01929ff52cf4ce818f80e1a4179f67808ea43f632cfbcef297a3eb715b35b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0117_000.markers.yaml, hash: 'sha256:c25a3cd0009fcc23246c67377bcdfbab60c8825681cfb116e82e58fc0e1c6dcb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0117_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 6857
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3a703fa4d6afd9c1d8cc79deb9693a67a1fb8624a15d4a9eec8fab038ac6a92d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
